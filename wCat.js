@@ -1,7 +1,7 @@
 let input = process.argv.slice(2);
 var fs = require('fs');
 const bigLineBreaks = require('./commands/bigLineBreaks');
-const defaultShowData = require('./commands/defaultShowData');
+const defaultShowData = require('./commands/defaultShowdata');
 const giveNumbers = require('./commands/giveNumbers');
 const nonEmptyNumber = require('./commands/nonEmptyNumber');
 
